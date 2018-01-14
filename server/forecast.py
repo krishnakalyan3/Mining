@@ -4,6 +4,7 @@ from flask import Flask
 from flask import request
 from flask.json import jsonify
 from flask_cors import CORS, cross_origin
+from fbprophet import Prophet
 
 app = Flask(__name__)
 CORS(app)
